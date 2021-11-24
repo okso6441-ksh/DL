@@ -21,19 +21,21 @@
 ### 2. Related Work  
 ### 3. Compound Model Scaling  
 #### 3.1 Problem Formulation  
-* $Y_i = F_i(X_i)$  
-  * $Y_i$: output tensor  
-  * $F_i$: operator  
-  * $X_i$: input tensor, shape: $<H_i, W_i, C_i>$    
-    * $H_i, W_i$: spatial dim      
-    * $C_i$: channel dim    
+
+* <img src="https://latex.codecogs.com/svg.image?Y_i&space;=&space;F_i(X_i)" title="Y_i = F_i(X_i)" />  
+
+  * <img src="https://latex.codecogs.com/svg.image?Y_i"/>: output tensor  
+  * <img src="https://latex.codecogs.com/svg.image?F_i"/>: operator  
+  * <img src="https://latex.codecogs.com/svg.image?X_i"/>: input tensor, shape: <img src="https://latex.codecogs.com/svg.image?<H_i,&space;W_i,&space;C_i>"/>    
+    * <img src="https://latex.codecogs.com/svg.image?Y_iH_i,&space;W_i"/>: spatial dim      
+    * <img src="https://latex.codecogs.com/svg.image?C_i"/>: channel dim    
 <br>
 
 * ![(1)](./image/(1).PNG)  
-  * $N$: ConvNet  
-  * $L_i$: Length  
-  * $C_i$: Width  
-  * $(H_i, W_i)$: Resolution  
+  * <img src="https://latex.codecogs.com/svg.image?N"/>: ConvNet  
+  * <img src="https://latex.codecogs.com/svg.image?L_i"/>: Length  
+  * <img src="https://latex.codecogs.com/svg.image?C_i"/>: Width  
+  * <img src="https://latex.codecogs.com/svg.image?(H_i,&space;W_i)"/>: Resolution  
   * spatial dim은 축소되나 channel dim은 확장되는 형태  
 
 <br>
